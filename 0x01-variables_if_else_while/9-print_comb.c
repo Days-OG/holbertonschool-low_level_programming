@@ -8,7 +8,7 @@
  * Return: Always 0 (Success)
  */
 
-int mai(void)
+int main(void)
 {
 int d;
 for (d = '0'; d <= '9'; d++)
