@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_prime_nnumber - helper for is_prime_number
+ * is_prime_number - helper for is_prime_number
  * @n: the number to check
  * @m: the current divisor
  *
