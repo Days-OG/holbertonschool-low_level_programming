@@ -34,5 +34,5 @@ if (n < 4)
 {
 return (n > 1);
 }
-return (__is_primer_number(n, 2));
+return (__is_prime_number(n, 2));
 }
