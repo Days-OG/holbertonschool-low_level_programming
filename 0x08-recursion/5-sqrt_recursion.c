@@ -15,7 +15,7 @@ if (m * m < n)
 {
 return (__sqrt_recursion(n, m + 1));
 }
-return (m * m == m ? m : -1);
+return (m * m == n ? m : -1);
 }
 
 /**
