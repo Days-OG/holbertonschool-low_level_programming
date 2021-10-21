@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - print all integers from given value to 98 
+ * print_to_98 - print all integers from given value to 98
  * @n: the start of the range
  *
  * Return: void
@@ -17,6 +17,6 @@ printf("%d\n",  n);
 else
 {
 printf("%d, ", n);
-print_to_98((n < 98) ? n + 1 : n -1);
+print_to_98((n < 98) ? n + 1 : n - 1);
 }
 }
