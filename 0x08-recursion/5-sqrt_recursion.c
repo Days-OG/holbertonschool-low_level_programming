@@ -3,7 +3,7 @@
 /**
  * __sqrt_recursion - helper for _sqrt_recursion
  * @n: the number to compute square root of
-@m: the currrent divisor to test
+*@m: the currrent divisor to test
 *
 * Return: the natural square root of n,
 * or -1 if n has no natural square root
