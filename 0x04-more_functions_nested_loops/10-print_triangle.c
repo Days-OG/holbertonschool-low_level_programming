@@ -22,6 +22,7 @@ for ( ; linelen > 0; --linelen)
 {
 _putchar('#');
 }
+_putchar('\n');
 }
 
 if (size <= 0)
