@@ -14,7 +14,7 @@ int linelen;
 
 for (linenum = 0; linenum < n; ++linenum)
 {
-for (linelen = 0; linelen < n; ++linelen)
+for (linelen = 0; linelen < linenum; ++linelen)
 {
 _putchar(' ');
 }
