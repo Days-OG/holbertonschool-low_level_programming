@@ -2,7 +2,7 @@
 
 /**
  * print_square - print a square in the terminal
- * @sie: size of square
+ * @size: size of square
  *
  * Return: void
  */
