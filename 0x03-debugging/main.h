@@ -11,4 +11,4 @@ int convert_day(int moth, int day);
 
 void print_remaining_days(int moth, int day, int year);
 
-#endif /* MAIN.H*/
+#endif /* MAIN_H */
