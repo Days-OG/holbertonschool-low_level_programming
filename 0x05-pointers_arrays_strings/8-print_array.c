@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_Array - print elements of an array of integers
+ * print_array - print elements of an array of integers
  * @a: the start of an array of integers
  * @n: the number of array elements to print
  *
