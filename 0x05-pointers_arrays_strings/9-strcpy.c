@@ -24,7 +24,7 @@ if (src + len < dest || dest + len < src)
 {
 do {
 *(dest + pos++) = *src++;
-} while (len++);
+} while (len--);
 }
 }
 return (dest);
