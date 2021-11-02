@@ -7,7 +7,7 @@
  * Return: void
  */
 
-void rev_String(char *s)
+void rev_string(char *s)
 {
 char *t = s;
 
