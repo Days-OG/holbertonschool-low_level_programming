@@ -15,7 +15,7 @@ if (s)
 {
 while (*(s + len))
 {
-++len
+++len;
 }
 }
 return (len);
