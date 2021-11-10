@@ -32,5 +32,5 @@ s[i] -= ('a' - 'A');
 }
 }
 }
-return (S);
+return (s);
 }
