@@ -22,7 +22,7 @@ while (*dest_end)
 }
 while (src[src_len])
 {
-++src_len
+++src_len;
 }
 if (src + src_len < dest || dest_end + src_len < src)
 {
