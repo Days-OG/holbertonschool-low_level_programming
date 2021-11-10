@@ -15,7 +15,7 @@ if (n > 9)
 {
 print_number(n / 10);
 }
-_puthcar('0' + n % 10);
+_putchar('0' + n % 10);
 }
 else
 {
@@ -24,6 +24,6 @@ if (n < -9)
 {
 print_number(n / -10);
 }
-_puthcar('0' - n % 10);
+_putchar('0' - n % 10);
 }
 }
