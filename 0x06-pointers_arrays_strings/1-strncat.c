@@ -33,5 +33,7 @@ while (src_len--)
 {
 *dest_end++ = *src++;
 }
+*dest_end = '\0';
+}
 return (dest);
 }

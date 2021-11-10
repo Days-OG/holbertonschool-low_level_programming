@@ -26,9 +26,9 @@ while (src[src_len])
 }
 if (src + src_len < dest || dest_end + src_len < src)
 {
-do{
+do {
 *dest_end++ = *src++;
-}while (src_len--);
+} while (src_len--);
 }
 
 return (dest);
