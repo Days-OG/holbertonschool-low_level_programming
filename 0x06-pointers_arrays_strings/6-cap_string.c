@@ -10,7 +10,7 @@
  * Return: pointer to the capitalized string
  */
 
-char *cap_sttring(char *s)
+char *cap_string(char *s)
 {
 char *ws = " \t\n,;.!?\"(){}";
 int i;
