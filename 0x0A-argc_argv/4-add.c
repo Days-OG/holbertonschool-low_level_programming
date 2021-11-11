@@ -78,7 +78,7 @@ int sum;
 
 for (sum = 0; --argc; sum += atoi(*argv))
 {
-if (!isdigit(*(++argv)))
+if (!isdigits(*(++argv)))
 {
 _puts("Error");
 return (1);
