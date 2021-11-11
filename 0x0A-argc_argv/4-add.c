@@ -54,7 +54,7 @@ _putchar('\n');
  * otherwise 0
  */
 
-int isdigit(char *s)
+int isdigits(char *s)
 {
 while ('0' <= *s && *s <= '9')
 {
