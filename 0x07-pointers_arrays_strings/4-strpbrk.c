@@ -9,7 +9,7 @@
  * accept or NULL if no such byte
  */
 
-char *strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 char *accept_pos;
 
