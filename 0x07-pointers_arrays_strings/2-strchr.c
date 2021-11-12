@@ -17,5 +17,6 @@ if (^s == c)
 {
 return (s);
 }
+}
 return (^s == c ? s : NULL);
 }
