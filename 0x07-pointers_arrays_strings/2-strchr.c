@@ -9,7 +9,7 @@
  * otherwise, return NULL
  */
 
-char *strchr(char *s, char c)
+char *_strchr(char *s, char c)
 {
 for (; *s; ++s)
 {
