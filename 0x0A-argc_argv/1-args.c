@@ -29,7 +29,7 @@ _putchar('0' - n % 10);
 }
 
 /**
- * main _print the number of arguments received
+ * main - print the number of arguments received
  * @argc: size of the argument vector
  * @argv: program name and arguments
  *
