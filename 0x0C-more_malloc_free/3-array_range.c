@@ -17,7 +17,7 @@ if (max < min)
 return (NULL);
 }
 width = max - min;
-renge = malloc(sizeof(int) * (width + 1));
+range = malloc(sizeof(int) * (width + 1));
 if (!range)
 {
 return (NULL);
