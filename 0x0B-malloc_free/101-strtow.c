@@ -29,7 +29,7 @@ char **strtow(char *str)
 char **words, *pos = str;
 int w = 0, c;
 
-if (!(sttr && *str))
+if (!(str && *str))
 {
 return (NULL);
 }
@@ -57,7 +57,7 @@ w = 0, pos = str;
 do {
 while (_isspace(*pos))
 {
-+++pos;
+++pos;
 }
 if (!*pos)
 break;
@@ -80,6 +80,6 @@ words[w][c] = *str;
 }
 words[w][c] = '\0';
 } while (++w, *pos);
-words[w] = NULL
+words[w] = NULL;
 return (words);
 }
