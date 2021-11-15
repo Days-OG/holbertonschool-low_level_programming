@@ -25,6 +25,7 @@ while (size > 0)
 {
 array[--size] = c;
 }
+}
 return (array);
 }
-}
+
