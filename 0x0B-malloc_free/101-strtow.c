@@ -19,10 +19,10 @@ return (0);
 /**
  * strtow - split a string into words
  * @str: a pointer to the string to split
- * 
+ *
  * Return: NULL if memory allocation fails or if str is null or empty ("")
  * otherwise return a pointer to the array of words terminated by a null
- * */
+*/
 
 char **strtow(char *str)
 {
