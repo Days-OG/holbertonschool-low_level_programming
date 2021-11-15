@@ -27,3 +27,4 @@ array[--size] = c;
 }
 return (array);
 }
+}
