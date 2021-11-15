@@ -28,21 +28,17 @@ char **strtow(char *str)
 {
 char **words, *pos = str;
 int w = 0, c;
-
 if (!(str && *str))
 {
 return (NULL);
 }
 do {
 while (_isspace(*pos))
-{
 ++pos;
-}
 if (!*pos)
 break;
 while (*(++pos) && !_isspace(*pos))
-{
-}
+;
 } while (++w, *pos);
 if (!w)
 {
@@ -62,8 +58,7 @@ while (_isspace(*pos))
 if (!*pos)
 break;
 for (str = pos++; *pos && !_isspace(*pos); ++pos)
-{
-}
+;
 words[w] = (char *) malloc(sizeof(char) * (pos - str + 1));
 if (!words[w])
 {
