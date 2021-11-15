@@ -37,6 +37,6 @@ cat[size] = *chr;
 }
 cat[size] = '\n';
 }
-cat[size] = '\n';
+cat[size] = '\0';
 return (cat);
 }
