@@ -21,7 +21,7 @@ array = (char *) malloc(sizeof(char) * size);
 
 if (array)
 {
-while (size >0)
+while (size > 0)
 {
 array[--size] = c;
 }
