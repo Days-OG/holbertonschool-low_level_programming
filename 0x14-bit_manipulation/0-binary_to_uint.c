@@ -7,7 +7,7 @@
  * Return: the converted number or 0 if b contains a character
  * other than '0' and '1'
  */
-unsigned int binary_to_unit(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 unsigned int n = 0;
 if (!b)
