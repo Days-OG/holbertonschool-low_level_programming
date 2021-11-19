@@ -18,7 +18,7 @@ typedef struct print_fn
   int (*fn)(va_list);
 } print_fn_t;
 int sum_them_all(const unsigned int n, ...);
-void print_numbers(const char *separator, cont unsigned int n, ...);
+void print_numbers(const char *separator, const unsigned int n, ...);
 void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 int print_char(va_list args);
