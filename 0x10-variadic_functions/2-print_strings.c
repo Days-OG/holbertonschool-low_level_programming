@@ -20,7 +20,7 @@ separator = "";
 while (remaining--)
 {
 str = va_arg(args, const char *);
-printf("%s", str ? str : "(nil)";
+printf("%s", str ? str : "(nil)");
 if (remaining)
 printf("%s", separator);
 }
