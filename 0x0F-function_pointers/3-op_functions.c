@@ -30,7 +30,7 @@ int op_mul(int a, int b)
 return (a * b);
 }
 /**
- * op_divide
+ * op_div - divide
  * @a: first operand
  * @b: second operand
  * Return: the result of the operation
