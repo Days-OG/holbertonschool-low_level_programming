@@ -7,7 +7,7 @@
  * Return: if s is not one of the defined operators
  * return NULL otherwise return a pointer to the apropiate function
  */
-int (*get _op_func(char *s))(int, int)
+int (*get_op_func(char *s))(int, int)
 {
 int i = 0;
 op_t ops[] = {

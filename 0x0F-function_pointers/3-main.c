@@ -19,7 +19,7 @@ puts("Error");
 exit(98);
 }
 f = get_op_func(argv[2]);
-if !f)
+if (!f)
 {
 puts("Error");
 exit(99);
