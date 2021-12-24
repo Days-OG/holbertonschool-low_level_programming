@@ -5,7 +5,7 @@ void init(void) __attribute__((constructor));
  */
 void init(void)
 {
-printf("%\n%s\n",
+printf("%s\n%s\n",
 "You're beat! and yet, ypu must allow,",
 "I bore my house upon my back!"
 );
