@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 /**
  * free_list - a ñinked list
  * @head: the first list node
