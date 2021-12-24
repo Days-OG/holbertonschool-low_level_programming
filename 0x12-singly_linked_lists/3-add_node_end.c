@@ -43,7 +43,7 @@ return (dup);
  * @str: the string to add to the list
  *
  * Return: if memory allocations fails, return NULL
-otherwise return the address of the new no
+ * otherwise return the address of the new no
 */
 list_t *add_node_end(list_t **head, const char *str)
 {
