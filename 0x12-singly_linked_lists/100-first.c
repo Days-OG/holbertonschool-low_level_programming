@@ -6,7 +6,7 @@ void init(void) __attribute__((constructor));
 void init(void)
 {
 printf("%\n%s\n",
-"you're beat! and yet, ypu must allow,",
-"i bore my house upon my back!"
+"You're beat! and yet, ypu must allow,",
+"I bore my house upon my back!"
 );
 }
