@@ -24,7 +24,7 @@ int isprime(long n)
  * largest_prime_factor - find the largest prime_factor of an integer
  * @n: integer to factor
  *
- * Renturn: largest prime factor of n.
+ * Return: largest prime factor of n.
  */
 long largest_prime_factor(long n)
 {
